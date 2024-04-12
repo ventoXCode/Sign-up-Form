@@ -1,0 +1,14 @@
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+}
+
+.logo-left {
+  display: flex;
+}
+img {
+  width: 35%;
+}
