@@ -1,14 +1,71 @@
+@font-face {
+  font-family: "Norse-Bold";
+  src: url("assets/Norse-Bold.otf") format("truetype"); /* Update the path to the font file */
+  /* Add additional src declarations for other font formats if necessary */
+}
+
 html,
 body {
   margin: 0;
-  height: 100vh;
-  overflow: hidden;
-  position: fixed;
+  height: 100%;
 }
 
-.logo-left {
+.container {
   display: flex;
+  justify-content: flex-start; /* Align content to the start (left) */
+  align-items: center;
+  height: 100%;
+  position: relative;
 }
-img {
-  width: 35%;
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 33.33%; /* Adjust the width to control the left portion of the screen */
+  height: 100%;
+  background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center content horizontally */
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%; /* Ensure content stretches horizontally */
+  margin-top: 30%;
+}
+
+.logo {
+  width: 50px; /* Adjust size as needed */
+}
+
+.title {
+  color: white;
+  font-size: 50px;
+  font-family: "Norse-Bold", sans-serif;
+  margin: 17px 0;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  position: absolute; /* Change to absolute */
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  font-size: 7px;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: underline;
 }
