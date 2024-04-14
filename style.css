@@ -12,14 +12,11 @@ body {
 
 .container {
   display: flex;
-  justify-content: flex-start; /* Align content to the start (left) */
   align-items: center;
   height: 100%;
-  position: relative;
 }
 
-.background {
-  position: absolute;
+.logo-half {
   top: 0;
   left: 0;
   width: 33.33%; /* Adjust the width to control the left portion of the screen */
@@ -32,19 +29,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; /* Center content horizontally */
-  text-align: center;
   background-color: rgba(0, 0, 0, 0.4);
-  width: 100%; /* Ensure content stretches horizontally */
-  margin-top: 30%;
+  margin-top: 32%;
 }
 
 .logo {
-  width: 50px; /* Adjust size as needed */
+  width: 23%; /* Adjust size as needed */
 }
 
 .title {
   color: white;
-  font-size: 50px;
+  font-size: 100px;
   font-family: "Norse-Bold", sans-serif;
   margin: 17px 0;
 }
@@ -62,10 +57,21 @@ footer {
 
 footer p {
   color: white;
-  font-size: 7px;
+  font-size: 15px;
 }
 
 footer a {
   color: #ffffff;
   text-decoration: underline;
+}
+
+.heading {
+  width: 100%;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 66.66%;
 }
