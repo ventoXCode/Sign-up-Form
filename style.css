@@ -8,11 +8,11 @@ html,
 body {
   margin: 0;
   height: 100%;
+  background-color: #f1f1f1;
 }
 
 .container {
   display: flex;
-  align-items: center;
   height: 100%;
 }
 
@@ -32,11 +32,9 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
   margin-top: 32%;
 }
-
 .logo {
   width: 23%; /* Adjust size as needed */
 }
-
 .title {
   color: white;
   font-size: 100px;
@@ -54,24 +52,45 @@ footer {
   width: 100%;
   text-align: center;
 }
-
 footer p {
   color: white;
   font-size: 15px;
 }
-
 footer a {
   color: #ffffff;
   text-decoration: underline;
 }
 
-.heading {
-  width: 100%;
-}
-
 .hero {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   width: 66.66%;
+  padding: 2%;
+}
+.heading p {
+  font-size: 30px;
+  max-width: 75%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin: 8% 0;
+}
+.inputs-container {
+  background: #ffffff;
+}
+.inputs {
+  display: flex;
+  justify-content: flex-start;
+}
+.left-half,
+.right-half {
+  flex-basis: 40%; /* Adjust as needed */
+}
+input {
+  width: 20rem;
+  height: 20px;
+  margin-bottom: 2rem;
+}
+.inputs > .left-half,
+.right-half > label {
+  margin-bottom: 2rem;
 }
