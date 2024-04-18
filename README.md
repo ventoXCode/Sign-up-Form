@@ -1,3 +1,5 @@
 # Sign-up-Form
 
-HTML, CSS Project form https://www.theodinproject.com/
+Live Preview : https://ventoxcode.github.io/Sign-up-Form/
+
+HTML, CSS Project from https://www.theodinproject.com/
